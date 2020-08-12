@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+header #header-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+header #gmail, header #images {
+    color: rgb(60, 60, 60);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 16px;
+    text-decoration: none;
+}
+
+header #gmail:hover, header #images:hover {
+    text-decoration: underline;
+}
+
+header #nine-box {
+    opacity: 60%;
+    padding: 10px;
+}
+
+header #nine-box:hover {
+    opacity: 85%;
+}
+
+header #login {
+    background-color: #4285f4;
+    border-radius: 2px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 8px 12px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header #login:hover {
+    text-decoration: underline;
+}
+
+main #main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main #logo {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 40px 0;
+}
+
+main #logo img {
+    max-width: 272px;
+}
+
+main #form {
+    display: flex;
+    justify-content: center;
+}
+
+main #form #searchbar-wrapper {
+    border-color: #e4e4e4;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 9px 20px;
+    width: 85vw;
+    max-width: 600px;
+}
+
+main #form #searchbar-wrapper:hover {
+    box-shadow: 0 1px 6px #0000002d;
+}
+
+main #form svg {
+    height: 20px;
+    width: auto;
+    fill: gray;
+}
+
+main #form input {
+    padding: 5px;
+    border-style: none;
+    background-color: white;
+    width: 100%;
+}
+
+main #form #button-wrapper {
+    display: flex;
+    justify-content: center;
+} 
+
+main #form button {
+    border-radius: 4px;
+    border-style: none;
+    color: #6c7177;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+main #form button:hover {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #d8d8d8;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer #footer-container {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+footer #left-wrapper {
+    display: flex;
+    flex-direction: row;    
+}
+
+footer #right-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer-container a {
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+    margin: 12px;
+    text-decoration: none;
+}
+
+footer #footer-container a:hover {
+    text-decoration: underline;
+}
